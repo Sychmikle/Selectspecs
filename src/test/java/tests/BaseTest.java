@@ -30,8 +30,6 @@ public class BaseTest {
         open(baseUrl);
         page = new BasePage(driver);
         homePage = page.createPage(HomePage.class);
-
-
     }
 
      @AfterClass

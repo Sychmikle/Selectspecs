@@ -7,7 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 public class BasePage {
     protected WebDriver driver;
 
-
     public BasePage(WebDriver driver){
         this.driver = driver;
     }
@@ -15,7 +14,6 @@ public class BasePage {
     public  <T> T createPage(Class<T> pageClass){
         return PageFactory.initElements(driver,pageClass);
     }
-
 
 }
 

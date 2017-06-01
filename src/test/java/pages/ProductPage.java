@@ -24,6 +24,7 @@ public class ProductPage extends BasePage{
         String s = webElement.getText();
         String strEnd = s.replaceFirst("\\D","");
         double i = Double.parseDouble(strEnd);
-        return i;}
+        return i;
+    }
 
 }

@@ -16,8 +16,6 @@ public class HomePage extends BasePage{
     @FindBy(css = ".large-4.medium-4.columns:nth-child(1)")
     public WebElement product;
 
-
-
     public LoginPage loginClick(){
         login.click();
         return createPage(LoginPage.class);
@@ -27,6 +25,5 @@ public class HomePage extends BasePage{
         product.click();
         return createPage(ProductPage.class);
     }
-
 
 }

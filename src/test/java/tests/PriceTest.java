@@ -1,7 +1,6 @@
 package tests;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import pages.AccountPage;
 import pages.LoginPage;
 import pages.ProductPage;
