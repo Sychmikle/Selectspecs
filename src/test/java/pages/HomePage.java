@@ -10,10 +10,10 @@ public class HomePage extends BasePage{
         super(driver);
     }
 
-    @FindBy(css = ".float-right .blue_ul")
+    @FindBy(css = ".fa.fa-user-circle-o.nav-icons")
     public WebElement login;
 
-    @FindBy(css = ".large-4.medium-4.columns:nth-child(1)")
+    @FindBy(css = ".large-4.medium-4.columns:nth-child(4)")
     public WebElement product;
 
     public LoginPage loginClick(){

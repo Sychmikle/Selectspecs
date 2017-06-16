@@ -12,7 +12,7 @@ public class ProductPage extends BasePage{
     @FindBy(css = ".productPagePrice")
     public WebElement productPrice;
 
-    @FindBy(css =".float-right>a")
+    @FindBy(css =".fa.fa-user-circle-o.nav-icons")
     public WebElement accountButton;
 
     public AccountPage clickAccButton(){

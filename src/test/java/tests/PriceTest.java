@@ -1,15 +1,16 @@
 package tests;
+
 import org.junit.Assert;
 import org.junit.Test;
 import pages.AccountPage;
 import pages.LoginPage;
 import pages.ProductPage;
 import utils.Convert;
+
 import static org.openqa.selenium.support.ui.ExpectedConditions.urlToBe;
 
 
 public class PriceTest extends BaseTest {
-
 
     @Test
     public void testWap() {
@@ -31,6 +32,5 @@ public class PriceTest extends BaseTest {
 
         Assert.assertTrue(Convert.wapCheck(engPrice,ukrPrice) > 10); // первое значение больше
     }
-
 
 }
